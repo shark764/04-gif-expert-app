@@ -44,6 +44,10 @@ config.rules = {
   'react/require-default-props': 'warn',
   '@typescript-eslint/strict-boolean-expressions': 'warn',
   // 'max-len': 'off',
+  'react/function-component-definition': [
+    'error',
+    { namedComponents: 'arrow-function' },
+  ],
 };
 
 module.exports = config;
